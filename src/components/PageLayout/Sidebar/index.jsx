@@ -20,13 +20,16 @@ const DomContent = () => (
     <div className={style.profileAvatar} />
     <div className={`${style.name} centerAlign`}>
       <div className={`${style.boxName} centerAlign`}>
-        <h2>
-          Rolwin
+        <h2>          
           {' '}
-          <span>Reevan</span>
+          <span>Khalil</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Software Engineer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Full Stack developer</div>
+      {/* <div className={`${style.badge} ${style.badgeGray}`}>ACM Developer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Adobe Forms Developer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>oXygen XML Developer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Full stack developer</div> */}
       <div className="centerAlign box">
         <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
@@ -34,13 +37,13 @@ const DomContent = () => (
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
-        <li className={`${style.contactBlockItem}`}>
+        {/* <li className={`${style.contactBlockItem}`}>
           <span>
             <FeatherIcon size="19" icon="calendar" />
             {' '}
           </span>
 &nbsp; &nbsp; May 9,1995
-        </li>
+        </li> */}
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
           {' '}
@@ -51,7 +54,7 @@ const DomContent = () => (
           {' '}
 &nbsp; &nbsp;
           <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            href="mailto:&#107;&#104;&#97;&#108;&#105;&#108;&#46;&#98;&#46;&#103;&#97;&#110;&#105;&#103;&#97;&#64;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#46;&#99;&#111;&#109;"
             target="_top"
           >
             <span className={style.emailHider}>@</span>
