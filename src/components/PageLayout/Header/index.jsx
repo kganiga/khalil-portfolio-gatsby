@@ -42,15 +42,15 @@ export default () => {
               </Link>
             </li>
             <li className={style.navItem}>
-              <Link to="/blog" onClick={toggleMenu} activeClassName={style.anchorActive}>
+              <Link to="https://khalilganiga.com" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Blog
               </Link>
             </li>
-            <li className={style.navItem}>
+            {/* <li className={style.navItem}>
               <Link to="/tags" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Tags
               </Link>
-            </li>
+            </li> */}
             <li className={style.navItem}>
               <Link to="/resume" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Resume

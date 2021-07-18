@@ -6,16 +6,10 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `Hello! I’m Khalil Ganiga.I am certified AEM Sites Architect and Full Stack developer, who is
+    passionate about various web technologies.I have an experience of nearly 9 years working with Adobe tools like Adobe Experience Manager,Adobe Campaign Manager, Adobe Forms.
+    I am a Java Engineer with a deep understanding of the AEM APIs and the underlying frameworks that compose AEM.Strong web developer background allows me to focus on providing optimized and uninhibited user experiences. I create fast, responsive, SEO friendly websites using HTML5, CSS3, JavaScript, and the latest tools in client-side development.`,
+  paraTwo: ``,
 };
 
 const AboutMe = () => {
@@ -27,7 +21,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Khalil', 'Ganiga', 'AEM', 'ACM', 'JAVA', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -41,8 +35,8 @@ const AboutMe = () => {
             img="location.png"
             height={60}
             alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            textH4="Lives in"
+            textH3="Banglore, KA, India"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -63,10 +57,10 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            img="cycle.jpg"
+            alt="cycle image"
+            textH4="Love Cycling"
+            textH3=""
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -84,7 +78,7 @@ const AboutMe = () => {
             img="graduation.png"
             alt="graduation image"
             textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            textH3="Electronics and Communication Engineering"
             height={60}
             width={60}
           />
