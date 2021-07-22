@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "",
   siteUrl: "https://khalilportfolio.gatsbyjs.io/",
   siteTitle: "Khalil - Full Stack Developer",
-  siteDescription: "Logbook of a software developer",
+  siteDescription: "Portfolio of Khalil Ganiga",
   author: "Khalil",
   postsForArchivePage: 3,
   defaultLanguage: "en",
